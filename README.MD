@@ -200,3 +200,15 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - MCP Python SDK: https://github.com/modelcontextprotocol/python-sdk
 - Vue.js Framework: https://vuejs.org
 - FastAPI: https://fastapi.tiangolo.com
+
+
+## screenshot
+
+### MCP Server Management
+![screenshot-1](hhttps://github.com/suzhan/mcp-client/blob/main/docs/mcp-client-1.jpg)
+
+### LLM Provider Management
+![screenshot-2](hhttps://github.com/suzhan/mcp-client/blob/main/docs/mcp-client-2.jpg)
+
+### Chat
+![screenshot-3](hhttps://github.com/suzhan/mcp-client/blob/main/docs/mcp-client-3.jpg)
