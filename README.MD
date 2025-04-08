@@ -205,10 +205,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## screenshot
 
 ### MCP Server Management
-![screenshot-1](ttps://github.com/suzhan/mcp-client/docs/mcp-client-1.jpg)
+![screenshot-1](https://github.com/suzhan/mcp-client/blob/main/docs/mcp-client-1.jpg)
 
 ### LLM Provider Management
-![screenshot-2](ttps://github.com/suzhan/mcp-client/docs/mcp-client-2.jpg)
+![screenshot-2](https://github.com/suzhan/mcp-client/blob/main/docs/mcp-client-2.jpg)
 
 ### Chat
-![screenshot-3](https://github.com/suzhan/mcp-client/docs/mcp-client-3.jpg)
+![screenshot-3](https://github.com/suzhan/mcp-client/blob/main/docs/mcp-client-3.jpg)
