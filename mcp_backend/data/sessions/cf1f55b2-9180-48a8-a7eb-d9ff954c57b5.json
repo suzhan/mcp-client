@@ -1,0 +1,13 @@
+{
+  "id": "cf1f55b2-9180-48a8-a7eb-d9ff954c57b5",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744093468,
+  "updated_at": 1744093468,
+  "last_activity": 1744093487,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": null,
+  "messages": [],
+  "timed_out": true
+}

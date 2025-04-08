@@ -1,0 +1,82 @@
+{
+  "languages": {
+    "en": "English",
+    "zh-CN": "Chinese (Simplified)"
+  },
+  "nav": {
+    "home": "Home",
+    "servers": "Servers",
+    "providers": "LLM Providers",
+    "settings": "Settings",
+    "chat": "Chat"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "test": "Test",
+    "details": "Details",
+    "yes": "Yes",
+    "no": "No",
+    "submit": "Submit",
+    "reset": "Reset",
+    "search": "Search",
+    "loading": "Loading..."
+  },
+  "servers": {
+    "title": "MCP Server Management",
+    "serverList": "Server List",
+    "addServer": "Add Server",
+    "editServer": "Edit Server",
+    "deleteServer": "Delete Server",
+    "serverSingular": "server",
+    "serverId": "Server ID",
+    "serverName": "Server Name",
+    "serverType": "Connection Type",
+    "serverStatus": "Status",
+    "serverUrl": "URL",
+    "stdioServer": "Standard I/O (stdio)",
+    "sseServer": "Server-Sent Events (SSE)",
+    "command": "Command",
+    "arguments": "Arguments (comma separated)",
+    "argumentsHint": "Example: --option,value",
+    "connected": "Online",
+    "disconnected": "Offline",
+    "connecting": "Connecting",
+    "tools": "Tools",
+    "resources": "Resources",
+    "prompts": "Prompts",
+    "actions": "Actions",
+    "deleteConfirm": "Are you sure you want to delete this server? This action cannot be undone.",
+    "toolsTitle": "Tools List",
+    "resourcesTitle": "Resources List",
+    "promptsTitle": "Prompts List",
+    "connectionTest": "Connection Test",
+    "testSuccess": "Connection Successful",
+    "testFailed": "Connection Failed",
+    "noTools": "No tools available",
+    "noResources": "No resources available",
+    "noPrompts": "No prompts available",
+    "availableTools": "Available Tools"
+  },
+  "errors": {
+    "connectionFailed": "Connection failed",
+    "serverError": "Server error",
+    "missingRequiredField": "{field} is required"
+  },
+  "success": {
+    "created": "{item} created successfully",
+    "updated": "{item} updated successfully",
+    "deleted": "{item} deleted successfully"
+  },
+  "home": {
+    "title": "MCP Client",
+    "welcome": "Welcome to MCP Client",
+    "description": "A universal MCP client implementation supporting multiple LLM providers",
+    "quickStart": "Quick Start",
+    "serverStatus": "Server Status",
+    "providerStatus": "LLM Provider Status"
+  }
+} 

@@ -1,0 +1,52 @@
+{
+  "id": "d9ae1306-62b7-40bf-96c0-16ac6e5e3a0d",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744096782,
+  "updated_at": 1744096790,
+  "last_activity": 1744103242,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "ab95b423-d0ad-4739-99e5-238e7423aa2f",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "请规则从 深圳市民中心到深圳北站 的 步行规划"
+      },
+      "timestamp": 1744096785
+    },
+    {
+      "id": "b7113a64-082f-4f4f-aadd-32aea1e48c7d",
+      "role": "assistant",
+      "content": {
+        "tool_call": {
+          "name": "maps_direction_walking",
+          "arguments": {
+            "origin": "深圳市民中心",
+            "destination": "深圳北站"
+          }
+        }
+      },
+      "timestamp": 1744096787
+    },
+    {
+      "id": "8f0afff6-5d39-4701-9eac-da0a44e14912",
+      "role": "tool",
+      "content": {
+        "name": "maps_direction_walking",
+        "result": "Direction Walking failed: INVALID_PARAMS"
+      },
+      "timestamp": 1744096788
+    },
+    {
+      "id": "c8eb4ea6-70ff-4f52-8781-edcba5b8c72b",
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1744096790
+    }
+  ],
+  "timed_out": true
+}

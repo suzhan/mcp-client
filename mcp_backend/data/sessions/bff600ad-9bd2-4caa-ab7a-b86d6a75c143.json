@@ -1,0 +1,66 @@
+{
+  "id": "bff600ad-9bd2-4caa-ab7a-b86d6a75c143",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744096645,
+  "updated_at": 1744096685,
+  "last_activity": 1744096780,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "ec344ffa-358b-41f0-833f-276e689cce96",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "北京天气"
+      },
+      "timestamp": 1744096653
+    },
+    {
+      "id": "b19a6efb-e3af-4621-91fe-d84dfc32d23f",
+      "role": "assistant",
+      "content": {
+        "tool_call": {
+          "name": "maps_weather",
+          "arguments": {
+            "city": "北京"
+          }
+        }
+      },
+      "timestamp": 1744096655
+    },
+    {
+      "id": "2d12dbc4-4594-448e-a35d-acc322e34c85",
+      "role": "tool",
+      "content": {
+        "name": "maps_weather",
+        "result": "{\n  \"city\": \"北京市\",\n  \"forecasts\": [\n    {\n      \"date\": \"2025-04-08\",\n      \"week\": \"2\",\n      \"dayweather\": \"小雨\",\n      \"nightweather\": \"小雨\",\n      \"daytemp\": \"22\",\n      \"nighttemp\": \"9\",\n      \"daywind\": \"南\",\n      \"nightwind\": \"南\",\n      \"daypower\": \"1-3\",\n      \"nightpower\": \"1-3\",\n      \"daytemp_float\": \"22.0\",\n      \"nighttemp_float\": \"9.0\"\n    },\n    {\n      \"date\": \"2025-04-09\",\n      \"week\": \"3\",\n      \"dayweather\": \"晴\",\n      \"nightweather\": \"多云\",\n      \"daytemp\": \"21\",\n      \"nighttemp\": \"8\",\n      \"daywind\": \"西南\",\n      \"nightwind\": \"西南\",\n      \"daypower\": \"1-3\",\n      \"nightpower\": \"1-3\",\n      \"daytemp_float\": \"21.0\",\n      \"nighttemp_float\": \"8.0\"\n    },\n    {\n      \"date\": \"2025-04-10\",\n      \"week\": \"4\",\n      \"dayweather\": \"多云\",\n      \"nightweather\": \"晴\",\n      \"daytemp\": \"24\",\n      \"nighttemp\": \"12\",\n      \"daywind\": \"南\",\n      \"nightwind\": \"南\",\n      \"daypower\": \"1-3\",\n      \"nightpower\": \"1-3\",\n      \"daytemp_float\": \"24.0\",\n      \"nighttemp_float\": \"12.0\"\n    },\n    {\n      \"date\": \"2025-04-11\",\n      \"week\": \"5\",\n      \"dayweather\": \"晴\",\n      \"nightweather\": \"多云\",\n      \"daytemp\": \"26\",\n      \"nighttemp\": \"8\",\n      \"daywind\": \"南\",\n      \"nightwind\": \"南\",\n      \"daypower\": \"1-3\",\n      \"nightpower\": \"1-3\",\n      \"daytemp_float\": \"26.0\",\n      \"nighttemp_float\": \"8.0\"\n    }\n  ]\n}"
+      },
+      "timestamp": 1744096656
+    },
+    {
+      "id": "fcde0004-074c-4eb2-b016-90ec168501c1",
+      "role": "assistant",
+      "content": "北京市未来几天天气预报如下：\n\n1. 4月8日（周二）\n   - 白天：小雨，22°C，南风1-3级\n   - 夜间：小雨，9°C，南风1-3级\n\n2. 4月9日（周三）\n   - 白天：晴，21°C，西南风1-3级\n   - 夜间：多云，8°C，西南风1-3级\n\n3. 4月10日（周四）\n   - 白天：多云，24°C，南风1-3级\n   - 夜间：晴，12°C，南风1-3级\n\n4. 4月11日（周五）\n   - 白天：晴，26°C，南风1-3级\n   - 夜间：多云，8°C，南风1-3级\n\n请注意天气变化，及时调整衣物。",
+      "timestamp": 1744096659
+    },
+    {
+      "id": "02e26fd3-a71c-4a11-87e5-330e5419e0cd",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "请规则从 深圳市民中心到深圳北站 的 步行规划"
+      },
+      "timestamp": 1744096683
+    },
+    {
+      "id": "05186b28-b785-4888-8935-951a6312c02f",
+      "role": "assistant",
+      "content": "<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>maps_direction_walking\n```json\n{\"origin\": \"深圳市民中心\",\"destination\": \"深圳北站\"}\n```<｜tool▁call▁end｜><｜tool▁calls▁end｜>",
+      "timestamp": 1744096685
+    }
+  ],
+  "timed_out": true
+}

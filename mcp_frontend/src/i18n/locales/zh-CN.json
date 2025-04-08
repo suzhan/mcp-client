@@ -1,0 +1,82 @@
+{
+  "languages": {
+    "en": "英文",
+    "zh-CN": "中文(简体)"
+  },
+  "nav": {
+    "home": "首页",
+    "servers": "服务器",
+    "providers": "LLM 供应商",
+    "settings": "设置",
+    "chat": "对话"
+  },
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "close": "关闭",
+    "delete": "删除",
+    "edit": "编辑",
+    "test": "测试",
+    "details": "详情",
+    "yes": "是",
+    "no": "否",
+    "submit": "提交",
+    "reset": "重置",
+    "search": "搜索",
+    "loading": "加载中..."
+  },
+  "servers": {
+    "title": "MCP 服务器管理",
+    "serverList": "服务器列表",
+    "addServer": "添加服务器",
+    "editServer": "编辑服务器",
+    "deleteServer": "删除服务器",
+    "serverSingular": "服务器",
+    "serverId": "服务器ID",
+    "serverName": "服务器名称",
+    "serverType": "连接类型",
+    "serverStatus": "状态",
+    "serverUrl": "URL",
+    "stdioServer": "标准输入输出 (stdio)",
+    "sseServer": "服务器发送事件 (SSE)",
+    "command": "命令",
+    "arguments": "参数 (用逗号分隔)",
+    "argumentsHint": "例如: --option,value",
+    "connected": "在线",
+    "disconnected": "离线",
+    "connecting": "连接中",
+    "tools": "工具",
+    "resources": "资源",
+    "prompts": "提示模板",
+    "actions": "操作",
+    "deleteConfirm": "确定要删除此服务器吗？此操作无法撤销。",
+    "toolsTitle": "工具列表",
+    "resourcesTitle": "资源列表",
+    "promptsTitle": "提示模板列表",
+    "connectionTest": "连接测试",
+    "testSuccess": "连接成功",
+    "testFailed": "连接失败",
+    "noTools": "无工具",
+    "noResources": "无资源",
+    "noPrompts": "无提示模板",
+    "availableTools": "可用工具"
+  },
+  "errors": {
+    "connectionFailed": "连接失败",
+    "serverError": "服务器错误",
+    "missingRequiredField": "{field}是必填项"
+  },
+  "success": {
+    "created": "{item}创建成功",
+    "updated": "{item}更新成功",
+    "deleted": "{item}删除成功"
+  },
+  "home": {
+    "title": "MCP 客户端",
+    "welcome": "欢迎使用 MCP 客户端",
+    "description": "通用的 MCP 客户端实现，支持多种 LLM 供应商",
+    "quickStart": "快速开始",
+    "serverStatus": "服务器状态",
+    "providerStatus": "LLM 供应商状态"
+  }
+} 

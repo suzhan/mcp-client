@@ -1,0 +1,42 @@
+{
+  "name": "mcp-client-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "date-fns": "^4.1.0",
+    "dompurify": "^3.2.4",
+    "highlight.js": "^11.11.1",
+    "json-rpc-2.0": "^1.6.0",
+    "markdown-it": "^13.0.2",
+    "markdown-it-highlightjs": "^4.2.0",
+    "marked": "^10.0.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.9",
+    "vue-i18n": "^12.0.0-alpha.2",
+    "vue-router": "^4.2.5",
+    "vuetify": "^3.4.4"
+  },
+  "devDependencies": {
+    "@mdi/font": "^7.4.47",
+    "@tsconfig/node18": "^18.2.4",
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.1",
+    "@typescript-eslint/parser": "^6.13.1",
+    "@vitejs/plugin-vue": "^4.5.0",
+    "@vue/eslint-config-typescript": "^12.0.0",
+    "@vue/tsconfig": "^0.4.0",
+    "eslint": "^8.54.0",
+    "eslint-plugin-vue": "^9.18.1",
+    "sass": "^1.69.5",
+    "typescript": "~5.3.2",
+    "vite": "^5.0.2",
+    "vue-tsc": "^1.8.24"
+  }
+}

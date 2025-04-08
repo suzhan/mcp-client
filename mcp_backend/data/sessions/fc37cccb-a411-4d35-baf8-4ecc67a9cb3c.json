@@ -1,0 +1,43 @@
+{
+  "id": "fc37cccb-a411-4d35-baf8-4ecc67a9cb3c",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744109633,
+  "updated_at": 1744109654,
+  "last_activity": 1744112196,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "08edb764-adc2-4b7b-8370-94a27f756a89",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1744109637
+    },
+    {
+      "id": "18ce7ee8-e299-4bc5-9ba9-e7368d49e786",
+      "role": "assistant",
+      "content": "Hi there! 😊 How can I assist you today?",
+      "timestamp": 1744109639
+    },
+    {
+      "id": "de5f6349-bbcb-4986-bb55-eaa4fcc0b15a",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "我的 mysql 里有什么数据库？"
+      },
+      "timestamp": 1744109651
+    },
+    {
+      "id": "6241b890-1850-4b5f-b416-0e80c20363ff",
+      "role": "assistant",
+      "content": "要查看你的 MySQL 服务器中有哪些数据库，你可以使用以下 SQL 命令：  \n\n```sql\nSHOW DATABASES;\n```\n\n### 使用方法：\n1. **登录 MySQL 命令行**：  \n   ```sh\n   mysql -u 用户名 -p\n   ```\n   然后输入密码。  \n\n2. **执行命令**：  \n   ```sql\n   SHOW DATABASES;\n   ```\n   你会看到一个列表，类似这样：\n   ```\n   +--------------------+\n   | Database           |\n   +--------------------+\n   | information_schema |\n   | mysql              |\n   | performance_schema |\n   | sys                |\n   | your_database      |\n   +--------------------+\n   ```\n   - `information_schema`、`mysql`、`performance_schema`、`sys` 是 MySQL 系统数据库。  \n   - 其他名字的数据库（如 `your_database`）是你或应用程序创建的。  \n\n### 扩展：\n- 如果你想查看某个数据库的表，可以先选择数据库：  \n  ```sql\n  USE 数据库名;\n  SHOW TABLES;\n  ```\n- 或者直接查看所有数据库及其表（MySQL 8.0+）：  \n  ```sql\n  SELECT table_schema AS 数据库, table_name AS 表名 \n  FROM information_schema.tables \n  WHERE table_schema NOT IN ('mysql', 'sys', 'information_schema', 'performance_schema');\n  ```\n\n如果你是在 PHPMyAdmin 或其他图形化工具中，通常左侧边栏会直接显示数据库列表。  \n\n需要进一步帮助吗？ 😊",
+      "timestamp": 1744109654
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "eac474e3-60b7-4817-96d6-89c8cecf7903",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744027886,
+  "updated_at": 1744027892,
+  "last_activity": 1744028070,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "c8013bdc-a2d6-4acb-919e-203f6acf57f9",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1744027886
+    },
+    {
+      "id": "8c091ce5-311f-4857-a5dc-f1063cf13c91",
+      "role": "assistant",
+      "content": "Hello! How can I assist you today?",
+      "timestamp": 1744027889
+    },
+    {
+      "id": "3f535a76-64a8-4aa3-ab1a-f027eaddabdd",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "从sse-test 抓取 www.163.com 首页有什么内容"
+      },
+      "timestamp": 1744027892
+    }
+  ],
+  "timed_out": true
+}

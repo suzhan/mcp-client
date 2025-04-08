@@ -1,0 +1,23 @@
+{
+  "id": "d82b9574-3908-4f73-9bf9-4ae0a58852c4",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744092721,
+  "updated_at": 1744092721,
+  "last_activity": 1744092916,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "9316bc17-c386-48d1-817a-80b83e9bedb9",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi mysql 里有什么数据库？"
+      },
+      "timestamp": 1744092721
+    }
+  ],
+  "timed_out": true
+}

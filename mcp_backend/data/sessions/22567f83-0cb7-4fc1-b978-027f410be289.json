@@ -1,0 +1,44 @@
+{
+  "id": "22567f83-0cb7-4fc1-b978-027f410be289",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1743912899,
+  "updated_at": 1743912913,
+  "last_activity": 1743935082,
+  "llm_provider": "openrouter",
+  "llm_model": "meta-llama/llama-3-70b-instruct",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "0002993e-1d61-483a-afd3-379673770ac2",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1743912899
+    },
+    {
+      "id": "47fe459b-061c-4dbc-aee0-485cf2f7fcaa",
+      "role": "assistant",
+      "content": "Hi! How can I assist you today?",
+      "timestamp": 1743912902
+    },
+    {
+      "id": "6e50e289-6f85-470a-8d8f-1865ea09e453",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "who are you ?"
+      },
+      "timestamp": 1743912908
+    },
+    {
+      "id": "e8b38c63-7b40-43c3-a1a7-0e6410e37e45",
+      "role": "assistant",
+      "content": "I'm an assistant that can use external tools to help answer your questions. I have access to a range of tools, including MySQL, InfluxDB, Brave Search, File System, IoT Checker, and Baidu Map. I can use these tools to provide information on various topics, from database queries to file system operations and geographic data. What would you like to know?",
+      "timestamp": 1743912913
+    }
+  ],
+  "timed_out": true
+}

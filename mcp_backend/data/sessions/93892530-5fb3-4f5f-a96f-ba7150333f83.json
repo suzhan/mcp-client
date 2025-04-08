@@ -1,0 +1,13 @@
+{
+  "id": "93892530-5fb3-4f5f-a96f-ba7150333f83",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1743857943,
+  "updated_at": 1743858492,
+  "last_activity": 1743858501,
+  "llm_provider": null,
+  "llm_model": null,
+  "mcp_server_id": "",
+  "messages": [],
+  "timed_out": true
+}

@@ -1,0 +1,146 @@
+{
+  "id": "c390d9ef-ef6e-4890-9622-0297ad95783c",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1743841565,
+  "updated_at": 1743847982,
+  "last_activity": 1743855447,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "108c2acc-7898-42b4-8a07-5d56defc731f",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "我有哪一些文件呢？请汇总"
+      },
+      "timestamp": 1743841565
+    },
+    {
+      "id": "98ed9ada-ee13-4218-bd7a-4e2dd10eecfd",
+      "role": "assistant",
+      "content": {
+        "tool_call": {
+          "name": "list_allowed_directories",
+          "arguments": {}
+        }
+      },
+      "timestamp": 1743841570
+    },
+    {
+      "id": "ee23d5b9-0dd3-4876-9205-fac01d5a2ed6",
+      "role": "tool",
+      "content": {
+        "name": "list_allowed_directories",
+        "result": "Allowed directories:\n/Users/suzhan/Downloads"
+      },
+      "timestamp": 1743841570
+    },
+    {
+      "id": "c3ca082f-31df-4a00-9172-640c91b75fc2",
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1743841600
+    },
+    {
+      "id": "ab2b908f-f4ae-42d0-910e-63aa535226a0",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "我有哪一些文件呢？"
+      },
+      "timestamp": 1743841850
+    },
+    {
+      "id": "772a6108-151e-4166-98eb-842a6cfaba13",
+      "role": "assistant",
+      "content": {
+        "tool_call": {
+          "name": "list_directory",
+          "arguments": {
+            "path": "/Users/suzhan/Downloads"
+          }
+        }
+      },
+      "timestamp": 1743841879
+    },
+    {
+      "id": "399e2d22-fd8e-472e-a087-35ee3da9e9d4",
+      "role": "tool",
+      "content": {
+        "name": "list_directory",
+        "result": "[FILE] .$1111Neuron技术架构图2024-05-17.drawio.bkp\n[FILE] .$Neuron技术架构图.drawio.bkp\n[FILE] .$Neuron技术架构图2024-05-16-2.drawio.bkp\n[FILE] .$Neuron技术架构图2024-05-16.drawio.bkp\n[FILE] .DS_Store\n[FILE] .localized\n[DIR] 111\n[FILE] 168498701280141_480_320.jpg\n[FILE] 1743157426312.docx\n[FILE] 18.167.54.232\n[FILE] 1Website_Scanner-https___www.singtel.site-20250321-1231.pdf\n[FILE] 20211118 BIM-AM 2nd User Workshop (2).pptx\n[FILE] 2024 Neuron Logo Icon Black (1).jpg\n[FILE] 2024 Neuron Logo Icon Black.jpg\n[FILE] 2024 Neuron Logo Icon Black.svg\n[FILE] 20240314 Meeting Minutes (IT Design).docx\n[FILE] 20241022 BR 2024-2025 (Branch).pdf\n[FILE] 20241022 BR 2024-2025.pdf\n[FILE] 20250117 Neuron Operations Limited_335-337_Bldg 1E_Lease Agreement_20280214.pdf\n[FILE] 20250314 Cyberport x Neuron (IT Meeting) #2.pptx\n[FILE] 20250317 Cyberport SBP Project Initiation Document_V0_20250320 Aurecon Comments.pdf\n[FILE] 241119InvoicetoNeuronOperationsLimitedfrSUNCENT.pdf\n[FILE] 241119OrderconfirmationtoNeuronOperationsLimitedfrSUNCENT.pdf\n[FILE] 5ire-0.9.8-arm64.dmg\n[FILE] Atlas.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-BEN.THE.MEN.简体&英文.srt\n[FILE] Atlas.2024.1080p.NF.WEB-DL.DDP5.1.Atmos.H.264-BEN.THE.MEN.英文.srt\n[FILE] BetterTouchTool.zip\n[FILE] Brave-Browser.dmg\n[FILE] CCP1 Chilled Water Temperature-data-2025-01-27 13_02_37.csv\n[FILE] ClashX.Meta.zip\n[FILE] CleanerXcode.dmg\n[FILE] Continue.continue-1.0.4@darwin-arm64.vsix\n[FILE] Cursor Mac Installer (250103fqxdt5u9z) (1).zip\n[FILE] Cursor Mac Installer (250103fqxdt5u9z).zip\n[FILE] Cursor Mac Installer (250207y6nbaw5qc).zip\n[FILE] Cursor-darwin-arm64 (1).dmg\n[FILE] Cursor-darwin-arm64.dmg\n[FILE] Cyberport x Neuron (IT Meeting) 20250306.pptx\n[FILE] DDL.sql\n[FILE] DeepSeek从入门到精通 (元宇宙文化实验室) .pdf\n[FILE] Disaster Recovery Drill for HKSI.docx\n[FILE] ExportedEstimate.xlsx\n[FILE] Figure_1.png\n[FILE] Fork-2.50.1.dmg\n[FILE] Frame 1321315494 1.png\n[FILE] GitUp.zip\n[FILE] HKSI environmental stress test report (1).docx\n[FILE] HKSI environmental stress test report 1.pdf\n[FILE] HKSI.pdf\n[FILE] ISMS-JL-14首末次会议签到表.doc\n[FILE] ISMS-JL-16管理评审会议签到表.doc\n[FILE] Invoice-2E46443F-0007.pdf\n[FILE] Invoice-2E46443F-0008.pdf\n[FILE] Invoice-2E46443F-0009.pdf\n[FILE] IoT-LLM-英文.drawio.png\n[FILE] KT IOT Platform Network (Jan 3, 2024) v10.2.pptx\n[FILE] LLM 模型的选择.pdf\n[DIR] LaoMaoTao\n[DIR] LaoMaoTao 2\n[FILE] Leader Key-latest.zip\n[DIR] LocalRecordFiles\n[FILE] MicrosoftEdge-134.0.3124.95.dmg\n[FILE] MicrosoftEdge-135.0.3179.54.dmg\n[FILE] Milesight PI_XSHT325030332_Hong Kong_Neuron Operations Limited.pdf\n[FILE] Milesight_Sep.pdf\n[FILE] Mos.Versions.3.5.0.dmg\n[FILE] Network & Server.pdf\n[FILE] Network Arch.pptx\n[FILE] Neuron Cloud-native Architecture (1).pptx\n[FILE] Neuron Cloud-native Architecture.pptx\n[FILE] Neuron--Milesight IoT Quotation  V6.6.pdf\n[FILE] OnyX.dmg\n[FILE] OpenNebula_Subscription_Rev20230124.pdf\n[FILE] RDCC - System Design_v2.docx\n[FILE] Receipt-2049-7775.pdf\n[FILE] Receipt-2310-6908.pdf\n[FILE] Receipt-2354-8074.pdf\n[FILE] SampleVideo_1280x720_30mb.mp4\n[FILE] Security Review checklist - 草稿版.xlsx\n[FILE] Time Machine Folder.key\n[FILE] VM- requirements 7.xlsx\n[FILE] VM- requirements 7b.xlsx\n[FILE] VPN连接到 sz office 的方法.pdf\n[FILE] Vivaldi.7.3.3635.7.universal.dmg\n[FILE] Website_Scanner-https___accend.singtel.com-20250324-1050.pdf\n[FILE] Website_Scanner-https___www.singtel.site-20250320-0604.pdf\n[FILE] Website_Scanner-https___www.singtel.site-20250321-0929.pdf\n[FILE] Wi-Fi指纹室内导航系统实现技术详解.pdf\n[FILE] ZAP by Checkmarx Scanning Report.pdf\n[FILE] apache-maven-3.9.9-bin.tar.gz\n[FILE] bms.html\n[FILE] bmsb.html\n[DIR] build\n[FILE] build16.zip\n[FILE] classic.db\n[FILE] deepseek配置推荐—X86.xls\n[DIR] dmg\n[DIR] dmg 2\n[FILE] dmg.zip\n[FILE] doc01028820250318143910.pdf\n[FILE] doc01028920250318143922.pdf\n[FILE] doc01029020250318143933.pdf\n[FILE] doc01029320250318144652.pdf\n[FILE] doc01029420250318144704.pdf\n[FILE] fullchain.pem\n[FILE] gitleaks_scan_results.txt\n[FILE] hksi 3.pdf\n[FILE] hksi.md\n[FILE] i18n.d.ts\n[FILE] iTermAI-1.1.zip\n[FILE] image (1).png\n[FILE] image (2).png\n[FILE] image.png\n[FILE] index2 1.html\n[FILE] index2.html\n[FILE] installGitKraken.dmg\n[FILE] iot-documentation 2.yaml\n[FILE] iot-documentation 3 (1).yaml\n[FILE] iot-documentation 3.yaml\n[FILE] iot-documentation.yaml\n[DIR] jdk-17.0.12.jdk\n[FILE] jdk-17.0.12_macos-aarch64_bin.tar.gz\n[FILE] k8s_node_dashboard_10.0.128.5_9100 1.png\n[FILE] k8s_node_dashboard_10.0.128.6_9100 1.png\n[FILE] k8s_node_dashboard_10.0.128.7_9100 1 (1).png\n[FILE] k8s_node_dashboard_10.0.128.8_9100 1 (1).png\n[FILE] loginnpm.ps1\n[FILE] maven-mvnd-1.0.2-darwin-aarch64.tar.gz\n[FILE] models-export-1739253427865.json\n[FILE] models-export-1739254977692.json\n[FILE] mysql-slowquery.log.2025-02-25.05\n[FILE] mysql-slowquery.log.2025-02-26.00\n[FILE] mysql-slowquery.log.2025-02-26.00.txt\n[FILE] mysql-slowquery.log.2025-02-26.01\n[FILE] mysql-slowquery.log.2025-02-27.00\n[FILE] mysql-slowquery.log.2025-02-27.01\n[FILE] mysql-slowquery.log.2025-02-27.02\n[FILE] mysql-slowquery.log.2025-02-27.03\n[FILE] mysql-slowquery.log.2025-02-27.04\n[FILE] mysql-slowquery.log.2025-02-27.05\n[FILE] mysql_status_2025_01.csv\n[FILE] neuron-n.png\n[FILE] neuron-s3-neuron-camera_accessKeys.csv\n[DIR] neuron.docs.ui-test 3\n[FILE] ocelot\n[FILE] ocelot-file\n[FILE] output (1).png\n[FILE] output.png\n[FILE] sensorData_20250121.csv\n[FILE] singtel环境gateway配置.json\n[FILE] sonar-secrets-java-1.3.0.jar\n[FILE] sonar-secrets-javascript-1.3.0.jar\n[FILE] spring-mcp-server-0.0.1-SNAPSHOT.jar\n[FILE] temp.jpg\n[FILE] test-20250401 安全报告.pdf\n[FILE] wp-china-yes.3.8.zip\n[FILE] wp-cli.phar\n[FILE] ~$CIAM App Questionnaire Spreadsheet.xlsx\n[FILE] ~$file.docx\n[FILE] 商场室内最短路径导航系统实施方案.pdf\n[FILE] 大型商场室内导航技术优选方案与实施策略.pdf\n[FILE] 安全.html\n[FILE] 数码港项目-Cybeport Neuron Design.drawio.png\n[FILE] 数码港项目-System Architecture Diagram.drawio.png\n[DIR] 新建文件夹 (4)\n[DIR] 测试报告\n[FILE] 测试报告 1.rar\n[DIR] 测试报告 3\n[FILE] 测试报告-2024.09.docx\n[FILE] 测试报告-2024.09.pdf\n[FILE] 测试报告-2024.10.pdf\n[FILE] 测试报告-2024.11.pdf\n[FILE] 测试报告-2024.12.pdf\n[FILE] 测试报告-2025.01.docx\n[FILE] 测试报告-2025.01.pdf\n[FILE] 测试报告.rar"
+      },
+      "timestamp": 1743841879
+    },
+    {
+      "id": "66096cbf-92e9-4c1e-aacd-c7ed4ce3365b",
+      "role": "assistant",
+      "content": "您在/Users/suzhan/Downloads目录下有以下文件和子目录：\n\n主要文件类型：\n- 文档类：.pdf, .docx, .pptx, .xlsx 等（如HKSI环境测试报告、Neuron架构文档等）\n- 图片类：.png, .jpg, .svg（如Neuron Logo、系统架构图等）\n- 安装包类：.dmg, .zip（如各种软件安装包）\n- 代码/配置类：.sql, .json, .yaml（如DDL.sql、配置json等）\n- 日志/数据类：.csv, .log（如MySQL慢查询日志、传感器数据等）\n\n主要子目录：\n- dmg/\n- build/\n- jdk-17.0.12.jdk/\n- 测试报告/（包含多个测试报告文档）\n- Neuron相关目录\n\n需要我为您查找特定文件或提供更详细的分类信息吗？",
+      "timestamp": 1743841922
+    },
+    {
+      "id": "560cbde0-16af-4bb0-82de-f7012598672d",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "那一个文件最大？"
+      },
+      "timestamp": 1743847362
+    },
+    {
+      "id": "89b28668-f7d3-463b-a11d-4a849886902c",
+      "role": "assistant",
+      "content": "<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>list_directory\n```json\n{\"path\":\"/Users/suzhan/Downloads\"}\n```<｜tool▁call▁end｜><｜tool▁calls▁end｜>",
+      "timestamp": 1743847368
+    },
+    {
+      "id": "e01e7627-afc7-4db7-a4f2-ed9b45d87749",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "哪一个文件占用磁盘空间最大？"
+      },
+      "timestamp": 1743847426
+    },
+    {
+      "id": "3c6b6c11-7ef1-43c9-b604-21ad970c9d52",
+      "role": "assistant",
+      "content": "<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>search_files\n```json\n{\"path\":\"/Users/suzhan/Downloads\",\"query\":\"*\",\"sort_by\":\"size\",\"limit\":1}\n```<｜tool▁call▁end｜><｜tool▁calls▁end｜>",
+      "timestamp": 1743847432
+    },
+    {
+      "id": "d065c975-2225-46f4-95b4-34191bceb639",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "建立一个test的文件，里边写入mcp test"
+      },
+      "timestamp": 1743847603
+    },
+    {
+      "id": "2e9e8018-b72f-4e1a-8faa-74e8cd9a5b2b",
+      "role": "assistant",
+      "content": "<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>write_file\n```json\n{\"path\":\"/Users/suzhan/Downloads/test\",\"content\":\"mcp test\"}\n```<｜tool▁call▁end｜><｜tool▁calls▁end｜>",
+      "timestamp": 1743847610
+    },
+    {
+      "id": "dd71f917-4b1c-4d03-847d-b8f93603658f",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "建立一个test的文件，里边写入mcp test"
+      },
+      "timestamp": 1743847975
+    },
+    {
+      "id": "f6fe3c8a-4e5a-47b1-b813-812d86767dd6",
+      "role": "assistant",
+      "content": "<｜tool▁calls▁begin｜><｜tool▁call▁begin｜>function<｜tool▁sep｜>write_file\n```json\n{\"path\":\"/Users/suzhan/Downloads/test.txt\",\"content\":\"mcp test\"}\n```<｜tool▁call▁end｜><｜tool▁calls▁end｜>",
+      "timestamp": 1743847982
+    }
+  ],
+  "timed_out": true
+}

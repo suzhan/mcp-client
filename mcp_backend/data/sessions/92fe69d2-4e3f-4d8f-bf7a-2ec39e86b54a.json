@@ -1,0 +1,23 @@
+{
+  "id": "92fe69d2-4e3f-4d8f-bf7a-2ec39e86b54a",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744027483,
+  "updated_at": 1744027485,
+  "last_activity": 1744027667,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "sse-test",
+  "messages": [
+    {
+      "id": "5e25c7d7-1734-40a6-bc3d-3faa88580106",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "从sse-test 抓取 www.163.com 首页有什么内容"
+      },
+      "timestamp": 1744027485
+    }
+  ],
+  "timed_out": true
+}

@@ -1,0 +1,29 @@
+{
+  "id": "a65f08d6-27b8-4017-af68-9222ba9f1073",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744073553,
+  "updated_at": 1744073560,
+  "last_activity": 1744073697,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "5264355b-e14f-4a97-aa03-cebe46665ab4",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "抓取www.163.com 的首页内容"
+      },
+      "timestamp": 1744073556
+    },
+    {
+      "id": "f621e138-11b7-4927-8d99-d180ec95feda",
+      "role": "system",
+      "content": "工具调用处理失败: cannot access local variable 'e' where it is not associated with a value",
+      "timestamp": 1744073560
+    }
+  ],
+  "timed_out": true
+}

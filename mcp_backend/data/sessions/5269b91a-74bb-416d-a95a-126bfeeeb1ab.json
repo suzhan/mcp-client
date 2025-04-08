@@ -1,0 +1,49 @@
+{
+  "id": "5269b91a-74bb-416d-a95a-126bfeeeb1ab",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1743839211,
+  "updated_at": 1743839252,
+  "last_activity": 1743841551,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "8e7b2435-d704-4baa-a1e2-441553f59cd4",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "我有哪一些文件"
+      },
+      "timestamp": 1743839211
+    },
+    {
+      "id": "15902887-c39f-4af7-9294-e74bd153c4a1",
+      "role": "assistant",
+      "content": {
+        "tool_call": {
+          "name": "list_allowed_directories",
+          "arguments": {}
+        }
+      },
+      "timestamp": 1743839216
+    },
+    {
+      "id": "063a8f06-cca1-45f6-9872-b89967387535",
+      "role": "tool",
+      "content": {
+        "name": "list_allowed_directories",
+        "result": "Allowed directories:\n/Users/suzhan/Downloads"
+      },
+      "timestamp": 1743839216
+    },
+    {
+      "id": "962e7194-9f80-4644-a71e-67385bb93541",
+      "role": "assistant",
+      "content": "",
+      "timestamp": 1743839252
+    }
+  ],
+  "timed_out": true
+}

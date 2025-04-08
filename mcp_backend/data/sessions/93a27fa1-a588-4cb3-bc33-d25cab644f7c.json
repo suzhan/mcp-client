@@ -1,0 +1,49 @@
+{
+  "id": "93a27fa1-a588-4cb3-bc33-d25cab644f7c",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744092917,
+  "updated_at": 1744092925,
+  "last_activity": 1744093466,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "ac99107b-954f-47eb-a250-b5eea4627622",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi mysql 里有什么数据库？"
+      },
+      "timestamp": 1744092920
+    },
+    {
+      "id": "e73826c3-09fb-4d2f-a8f6-442636234aea",
+      "role": "assistant",
+      "content": {
+        "tool_call": {
+          "name": "list_databases",
+          "arguments": {}
+        }
+      },
+      "timestamp": 1744092922
+    },
+    {
+      "id": "92c35858-1a15-4a18-9829-fca284b7ee25",
+      "role": "tool",
+      "content": {
+        "name": "list_databases",
+        "result": "[\n  {\n    \"Database\": \"ai-test_nacos\"\n  },\n  {\n    \"Database\": \"dataspace_neuron_xxl_job\"\n  },\n  {\n    \"Database\": \"disney_minio\"\n  },\n  {\n    \"Database\": \"haiot_apolloconfigdb\"\n  },\n  {\n    \"Database\": \"haiot_apolloportaldb\"\n  },\n  {\n    \"Database\": \"haiot_database\"\n  },\n  {\n    \"Database\": \"haiot_files\"\n  },\n  {\n    \"Database\": \"haiot_form_builder\"\n  },\n  {\n    \"Database\": \"haiot_messaging\"\n  },\n  {\n    \"Database\": \"haiot_neuron_app\"\n  },\n  {\n    \"Database\": \"haiot_neuron_business_bim\"\n  },\n  {\n    \"Database\": \"haiot_neuron_data_analysis\"\n  },\n  {\n    \"Database\": \"haiot_neuron_iot\"\n  },\n  {\n    \"Database\": \"haiot_neuron_project\"\n  },\n  {\n    \"Database\": \"haiot_neuron_ruleengine\"\n  },\n  {\n    \"Database\": \"haiot_neuron_task\"\n  },\n  {\n    \"Database\": \"haiot_neuron_workflow\"\n  },\n  {\n    \"Database\": \"haiot_neuronams\"\n  },\n  {\n    \"Database\": \"harbour_apolloconfigdb\"\n  },\n  {\n    \"Database\": \"harbour_apolloportaldb\"\n  },\n  {\n    \"Database\": \"harbour_database\"\n  },\n  {\n    \"Database\": \"harbour_form_builder\"\n  },\n  {\n    \"Database\": \"harbour_messaging\"\n  },\n  {\n    \"Database\": \"harbour_neuron_app\"\n  },\n  {\n    \"Database\": \"harbour_neuron_bim\"\n  },\n  {\n    \"Database\": \"harbour_neuron_data_analysis\"\n  },\n  {\n    \"Database\": \"harbour_neuron_iot\"\n  },\n  {\n    \"Database\": \"harbour_neuron_mms\"\n  },\n  {\n    \"Database\": \"harbour_neuron_project\"\n  },\n  {\n    \"Database\": \"harbour_neuron_ruleengine\"\n  },\n  {\n    \"Database\": \"harbour_neuron_schedule\"\n  },\n  {\n    \"Database\": \"harbour_neuron_sustain\"\n  },\n  {\n    \"Database\": \"harbour_neuron_task\"\n  },\n  {\n    \"Database\": \"harbour_neuron_widget\"\n  },\n  {\n    \"Database\": \"harbour_neuronams\"\n  },\n  {\n    \"Database\": \"harbour_neuronbi\"\n  },\n  {\n    \"Database\": \"harbour_neurondb\"\n  },\n  {\n    \"Database\": \"harbour_space\"\n  },\n  {\n    \"Database\": \"harbourmessaging\"\n  },\n  {\n    \"Database\": \"hksiprod_apolloconfigdb\"\n  },\n  {\n    \"Database\": \"hksiprod_apolloportaldb\"\n  },\n  {\n    \"Database\": \"hksiprod_nacos\"\n  },\n  {\n    \"Database\": \"information_schema\"\n  },\n  {\n    \"Database\": \"lingnan_apolloconfigdb\"\n  },\n  {\n    \"Database\": \"lingnan_apolloportaldb\"\n  },\n  {\n    \"Database\": \"llmdata\"\n  },\n  {\n    \"Database\": \"mysql\"\n  },\n  {\n    \"Database\": \"mysql_data\"\n  },\n  {\n    \"Database\": \"otp_apolloconfigdb\"\n  },\n  {\n    \"Database\": \"otp_apolloportaldb\"\n  },\n  {\n    \"Database\": \"otp_construction\"\n  },\n  {\n    \"Database\": \"otp_messagesystem\"\n  },\n  {\n    \"Database\": \"otp_messaging\"\n  },\n  {\n    \"Database\": \"otp_neuron_app\"\n  },\n  {\n    \"Database\": \"otp_neuron_bim\"\n  },\n  {\n    \"Database\": \"otp_neuron_business_project\"\n  },\n  {\n    \"Database\": \"otp_neuron_camera\"\n  },\n  {\n    \"Database\": \"otp_neuron_cm\"\n  },\n  {\n    \"Database\": \"otp_neuron_data_analysis\"\n  },\n  {\n    \"Database\": \"otp_neuron_iot\"\n  },\n  {\n    \"Database\": \"otp_neuron_smartwatch\"\n  },\n  {\n    \"Database\": \"otp_neuron_sustain\"\n  },\n  {\n    \"Database\": \"otp_neuron_task\"\n  },\n  {\n    \"Database\": \"otp_neuron_tenant\"\n  },\n  {\n    \"Database\": \"otp_neuron_widget\"\n  },\n  {\n    \"Database\": \"otp_neuron_wms\"\n  },\n  {\n    \"Database\": \"otp_neuronams\"\n  },\n  {\n    \"Database\": \"otp_neuronbi\"\n  },\n  {\n    \"Database\": \"otp_neurondb\"\n  },\n  {\n    \"Database\": \"otp_ruleengine\"\n  },\n  {\n    \"Database\": \"otp_widget\"\n  },\n  {\n    \"Database\": \"performance_schema\"\n  },\n  {\n    \"Database\": \"platform4_nacos\"\n  },\n  {\n    \"Database\": \"platform4_neuron\"\n  },\n  {\n    \"Database\": \"platform4_neuron_operations\"\n  },\n  {\n    \"Database\": \"platform4_neuron_warehouse\"\n  },\n  {\n    \"Database\": \"platform_idc_nacos\"\n  },\n  {\n    \"Database\": \"platform_idc_neuron\"\n  },\n  {\n    \"Database\": \"platform_idc_neuron_operations\"\n  },\n  {\n    \"Database\": \"platform_idc_neuron_warehouse\"\n  },\n  {\n    \"Database\": \"sys\"\n  },\n  {\n    \"Database\": \"test_airbyte\"\n  },\n  {\n    \"Database\": \"test_apolloconfigdb\"\n  },\n  {\n    \"Database\": \"test_apolloportaldb\"\n  },\n  {\n    \"Database\": \"test_cloudcamera\"\n  },\n  {\n    \"Database\": \"test_construction\"\n  },\n  {\n    \"Database\": \"test_database\"\n  },\n  {\n    \"Database\": \"test_etl_bi\"\n  },\n  {\n    \"Database\": \"test_files\"\n  },\n  {\n    \"Database\": \"test_form_builder\"\n  },\n  {\n    \"Database\": \"test_messaging\"\n  },\n  {\n    \"Database\": \"test_minio\"\n  },\n  {\n    \"Database\": \"test_nacos\"\n  },\n  {\n    \"Database\": \"test_neuron-platform-ds\"\n  },\n  {\n    \"Database\": \"test_neuron-platform-warehouse\"\n  },\n  {\n    \"Database\": \"test_neuron_analysis_rdcc\"\n  },\n  {\n    \"Database\": \"test_neuron_app\"\n  },\n  {\n    \"Database\": \"test_neuron_bi\"\n  },\n  {\n    \"Database\": \"test_neuron_bim\"\n  },\n  {\n    \"Database\": \"test_neuron_callback\"\n  },\n  {\n    \"Database\": \"test_neuron_camera\"\n  },\n  {\n    \"Database\": \"test_neuron_chiller\"\n  },\n  {\n    \"Database\": \"test_neuron_clp_control\"\n  },\n  {\n    \"Database\": \"test_neuron_customize\"\n  },\n  {\n    \"Database\": \"test_neuron_data_analysis\"\n  },\n  {\n    \"Database\": \"test_neuron_electroniclock\"\n  },\n  {\n    \"Database\": \"test_neuron_files\"\n  },\n  {\n    \"Database\": \"test_neuron_iot\"\n  },\n  {\n    \"Database\": \"test_neuron_mms\"\n  },\n  {\n    \"Database\": \"test_neuron_platform\"\n  },\n  {\n    \"Database\": \"test_neuron_platform_dashboard\"\n  },\n  {\n    \"Database\": \"test_neuron_platform_msds\"\n  },\n  {\n    \"Database\": \"test_neuron_platform_operations\"\n  },\n  {\n    \"Database\": \"test_neuron_project\"\n  },\n  {\n    \"Database\": \"test_neuron_quicksight_filehub\"\n  },\n  {\n    \"Database\": \"test_neuron_rob_buildingdata\"\n  },\n  {\n    \"Database\": \"test_neuron_ruleengine\"\n  },\n  {\n    \"Database\": \"test_neuron_schedule\"\n  },\n  {\n    \"Database\": \"test_neuron_smarttenant\"\n  },\n  {\n    \"Database\": \"test_neuron_smartwatch\"\n  },\n  {\n    \"Database\": \"test_neuron_submission\"\n  },\n  {\n    \"Database\": \"test_neuron_sustain\"\n  },\n  {\n    \"Database\": \"test_neuron_task\"\n  },\n  {\n    \"Database\": \"test_neuron_tenant\"\n  },\n  {\n    \"Database\": \"test_neuron_widget\"\n  },\n  {\n    \"Database\": \"test_neuron_wms\"\n  },\n  {\n    \"Database\": \"test_neuron_workflow\"\n  },\n  {\n    \"Database\": \"test_neuronams\"\n  },\n  {\n    \"Database\": \"test_neuronbi\"\n  },\n  {\n    \"Database\": \"test_neurondb\"\n  },\n  {\n    \"Database\": \"test_platform_dashboard\"\n  },\n  {\n    \"Database\": \"test_space\"\n  },\n  {\n    \"Database\": \"test_superset\"\n  },\n  {\n    \"Database\": \"test_test_neuronams\"\n  },\n  {\n    \"Database\": \"test_xxl_job\"\n  },\n  {\n    \"Database\": \"testneuronams\"\n  },\n  {\n    \"Database\": \"viot_apolloconfigdb\"\n  },\n  {\n    \"Database\": \"viot_apolloportaldb\"\n  },\n  {\n    \"Database\": \"viot_database\"\n  },\n  {\n    \"Database\": \"viot_files\"\n  },\n  {\n    \"Database\": \"viot_form_builder\"\n  },\n  {\n    \"Database\": \"viot_messaging\"\n  },\n  {\n    \"Database\": \"viot_neuron_app\"\n  },\n  {\n    \"Database\": \"viot_neuron_business_bim\"\n  },\n  {\n    \"Database\": \"viot_neuron_camera\"\n  },\n  {\n    \"Database\": \"viot_neuron_data_analysis\"\n  },\n  {\n    \"Database\": \"viot_neuron_iot\"\n  },\n  {\n    \"Database\": \"viot_neuron_project\"\n  },\n  {\n    \"Database\": \"viot_neuron_ruleengine\"\n  },\n  {\n    \"Database\": \"viot_neuron_sustain\"\n  },\n  {\n    \"Database\": \"viot_neuron_task\"\n  },\n  {\n    \"Database\": \"viot_neuron_widget\"\n  },\n  {\n    \"Database\": \"viot_neuron_workflow\"\n  },\n  {\n    \"Database\": \"viot_neuronams\"\n  },\n  {\n    \"Database\": \"viot_space\"\n  }\n]"
+      },
+      "timestamp": 1744092922
+    },
+    {
+      "id": "b0a20a07-8e1a-4d63-8b62-0e349a9aa8f0",
+      "role": "assistant",
+      "content": "MySQL中共有以下数据库：\n\n1. ai-test_nacos\n2. dataspace_neuron_xxl_job\n3. disney_minio\n4. haiot_系列数据库（如haiot_database, haiot_files等）\n5. harbour_系列数据库（如harbour_database, harbour_neuron_app等）\n6. hksiprod_系列数据库\n7. information_schema（系统数据库）\n8. lingnan_系列数据库\n9. llmdata\n10. mysql（系统数据库）\n11. mysql_data\n12. otp_系列数据库\n13. performance_schema（系统数据库）\n14. platform4_系列数据库\n15. platform_idc_系列数据库\n16. sys（系统数据库）\n17. test_系列测试数据库\n18. viot_系列数据库\n\n主要包含系统数据库、物联网相关数据库(haiot/harbour/otp等)、测试数据库(test_)以及各种应用专用数据库。需要查询具体某个数据库的表信息可以告诉我。",
+      "timestamp": 1744092925
+    }
+  ],
+  "timed_out": true
+}

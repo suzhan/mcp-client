@@ -1,0 +1,23 @@
+{
+  "id": "36cd48e1-d24c-47d0-9ff0-a8d046184a60",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744073698,
+  "updated_at": 1744073700,
+  "last_activity": 1744073716,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "29b7f067-3592-4f19-88be-a82d39a268e2",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "抓取www.163.com 的首页内容"
+      },
+      "timestamp": 1744073700
+    }
+  ],
+  "timed_out": true
+}

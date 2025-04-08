@@ -1,0 +1,23 @@
+{
+  "id": "d75bdc77-33f3-4884-adcc-3a962d408e83",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744107206,
+  "updated_at": 1744107208,
+  "last_activity": 1744107419,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "faa0c3fa-e125-4f8c-bb59-a83fb24b5903",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1744107208
+    }
+  ],
+  "timed_out": true
+}

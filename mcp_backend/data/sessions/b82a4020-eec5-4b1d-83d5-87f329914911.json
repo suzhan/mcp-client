@@ -1,0 +1,40 @@
+{
+  "id": "b82a4020-eec5-4b1d-83d5-87f329914911",
+  "title": "snv",
+  "name": "snv",
+  "created_at": 1744108567,
+  "updated_at": 1744108597,
+  "last_activity": 1744109123,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "d91e203e-c643-4e96-9727-30f5eef4bec5",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1744108577
+    },
+    {
+      "id": "39b9a6af-9d2c-4443-8822-0f4bc8a31260",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1744108592
+    },
+    {
+      "id": "9422246c-197c-468d-ae00-7a8c0a2851ab",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1744108597
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "be21862f-ad8b-47f3-b0f9-abdfbc0f1f22",
+  "title": "新会话",
+  "name": "新会话",
+  "created_at": 1744028107,
+  "updated_at": 1744028387,
+  "last_activity": 1744073551,
+  "llm_provider": "openrouter",
+  "llm_model": "deepseek/deepseek-chat-v3-0324",
+  "mcp_server_id": "",
+  "messages": [
+    {
+      "id": "c0e580cd-c36a-4466-8deb-54cab9242be7",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "hi"
+      },
+      "timestamp": 1744028107
+    },
+    {
+      "id": "4a03d037-53d8-4652-b3fc-c677c1ea06e2",
+      "role": "assistant",
+      "content": "Hello! How can I assist you today?",
+      "timestamp": 1744028110
+    },
+    {
+      "id": "86cf8c5f-6c54-435b-bafa-1ea56c075bcc",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "抓取www.163.com 的首页内容"
+      },
+      "timestamp": 1744028131
+    },
+    {
+      "id": "2d071b22-d5a8-4f56-be20-c5f4a57b3cfb",
+      "role": "system",
+      "content": "工具调用处理失败: name 'tools' is not defined",
+      "timestamp": 1744028133
+    },
+    {
+      "id": "63afeee2-f2fb-47a5-9389-3137b78404f6",
+      "role": "user",
+      "content": {
+        "type": "text",
+        "text": "抓取www.163.com 的首页内容"
+      },
+      "timestamp": 1744028384
+    },
+    {
+      "id": "4375d67c-133f-43c2-a31d-1c74e4b078af",
+      "role": "system",
+      "content": "工具调用处理失败: cannot access local variable 'e' where it is not associated with a value",
+      "timestamp": 1744028387
+    }
+  ],
+  "timed_out": true
+}
